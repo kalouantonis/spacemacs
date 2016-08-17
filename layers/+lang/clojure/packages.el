@@ -111,9 +111,12 @@
           "fb" 'cider-format-buffer
 
           "gb" 'cider-pop-back
+          "gC" 'cider-classpath
           "ge" 'cider-jump-to-compilation-error
           "gg" 'cider-find-var
           "gr" 'cider-jump-to-resource
+          "gn" 'cider-browse-ns
+          "gN" 'cider-browse-ns-all
 
           "'"  'cider-jack-in
           "sb" 'cider-load-buffer
@@ -144,9 +147,11 @@
           "tn" 'spacemacs/cider-test-run-ns-tests
           "tr" 'spacemacs/cider-test-rerun-tests
           "tt" 'spacemacs/cider-test-run-focused-test
+          "tm" 'cider-auto-test-mode
 
           "db" 'cider-debug-defun-at-point
           "de" 'spacemacs/cider-display-error-buffer
+          "dE" 'cider-enlighten-mode
           "di" 'cider-inspect))
 
       (evil-define-key 'normal cider-repl-mode-map
